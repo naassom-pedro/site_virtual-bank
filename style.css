@@ -152,3 +152,36 @@
     padding: 2rem 1.5rem;
     border-radius: 7px;
 }
+
+.sign .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.sign .text h6{
+    color: #00BF7F;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+.sign .text h2{
+    color: #111;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.sign .text p{
+    color: #111;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: .5px;
+}
+.sign .text a{
+    background-color: #111;
+    font-weight: 500;
+    padding: 0.5rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+}
