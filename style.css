@@ -71,6 +71,7 @@ html{
     padding: 0.5rem 1.4rem;
     border-radius: 30px;
     text-decoration: none;
+    color: #000;
 }
 .mid .hero a:hover{
     background: #fff;
@@ -111,6 +112,9 @@ html{
     text-decoration: none;
     color: #111;
 }
+.about .text a:hover{
+    background-color: #fff;
+}
 .discovery .text{
     display: flex;
     flex-direction: column;
@@ -141,6 +145,10 @@ html{
     border-radius: 30px;
     text-decoration: none;
     color: #fff;
+}
+.discovery a:hover{
+    background-color: #00BF7F;
+    color: #000;
 }
 .service{
     background-color: #111;
@@ -188,10 +196,23 @@ html{
     text-decoration: none;
     color: #fff;
 }
+.sign .text a:hover{
+    background-color: #00BF7F;
+    color: #000;
+}
 .footer{
     background-color: #000;
     color: #fff;
 }
 .footer .btn{
     font-size: 30px;
+}
+
+/* Ajuste de margens do menu burger em telas pequenas */
+@media (max-width: 768px) {
+    .navbar{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
 }
