@@ -41,7 +41,14 @@ html{
 #navbarSupportedContent > button:hover{
     background-color: var(--color2);
 }
-.mid{
+.bg-header{
+    background-image: url(./img/bg-header.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-header{
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -51,26 +58,17 @@ html{
     align-content: center;
     text-align: center;
 }
-.mid video{
-    width: 100%;
-    height: 100vh;
-    pointer-events: none;
-    object-fit: cover;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 .hero{
     position: relative;
 }
-.mid .hero p{
+.bg-header .hero p{
     width: 55%;
     font-size: 1.1rem;
     letter-spacing: .2px;
     padding-bottom: 1rem;
 }
-.mid .hero a{
+.bg-header .hero a{
     background-color: var(--color1);
     font-weight: 600;
     padding: 0.5rem 1.4rem;
@@ -78,7 +76,7 @@ html{
     text-decoration: none;
     color: var(--color3);
 }
-.mid .hero a:hover{
+.bg-header .hero a:hover{
     background: var(--color2);
 }
 .about{
