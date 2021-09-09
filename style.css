@@ -20,6 +20,12 @@ html{
     padding: 1rem 8rem ;
     z-index: 1000;
 }
+.nav-link{
+    margin-bottom: 1em;
+}
+.nav-link:first-child{
+    margin-top: 1em;
+}
 .navbar .navbar-brand{
     font-size: 1.5rem;
 }
@@ -81,7 +87,6 @@ html{
 }
 .about{
     background-color: var(--color3);
-
 }
 .about .text{
     display: flex;
@@ -166,7 +171,6 @@ html{
     padding: 2rem 1.5rem;
     border-radius: 7px;
 }
-
 .sign .text{
     display: flex;
     flex-direction: column;
