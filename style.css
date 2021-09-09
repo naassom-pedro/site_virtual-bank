@@ -7,11 +7,16 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+:root{
+    --color1: #00bf85;
+    --color2: #fff;
+    --color3: #000;
+}
 html{
     scroll-behavior: smooth;
 }
 .navbar{
-    background-color: #131313;
+    background-color: var(--color3);
     padding: 1rem 8rem ;
     z-index: 1000;
 }
@@ -19,22 +24,22 @@ html{
     font-size: 1.5rem;
 }
 #navbarSupportedContent > ul > li:nth-child(n) > a{
-    color: #fff;
+    color:var(--color2);
     font-size: 1.1rem;
     padding: 0 0.8rem;
 }
 #navbarSupportedContent > ul > li:nth-child(n) > a:hover{
-    color: #00BF85;
+    color: var(--color1);
 }
 
 #navbarSupportedContent > button{
-    background-color: #00BF85;
+    background-color: var(--color1);
     font-weight: 600;
     padding: 0.4rem 1.4rem;
     border-radius: 30px;
 }
 #navbarSupportedContent > button:hover{
-    background-color: #fff;
+    background-color: var(--color2);
 }
 .mid{
     width: 100%;
@@ -66,18 +71,18 @@ html{
     padding-bottom: 1rem;
 }
 .mid .hero a{
-    background-color: #00BF85;
+    background-color: var(--color1);
     font-weight: 600;
     padding: 0.5rem 1.4rem;
     border-radius: 30px;
     text-decoration: none;
-    color: #000;
+    color: var(--color3);
 }
 .mid .hero a:hover{
-    background: #fff;
+    background: var(--color2);
 }
 .about{
-    background-color: #000;
+    background-color: var(--color3);
 
 }
 .about .text{
@@ -88,32 +93,32 @@ html{
     margin: auto;
 }
 .about .text h6{
-    color: #00BF7F;
+    color: var(--color1);
     font-weight: 800;
     letter-spacing: 2px;
     font-size: 1rem;
 }
 .about .text h2{
-    color: #F7F5F4;
+    color: var(--color2);
     font-weight: 700;
     font-size: 2.7rem;
 }
 .about .text p{
-    color: #F7F5F4;
+    color: var(--color2);
     font-weight: 400;
     font-size: 1.1rem;
     letter-spacing: .5px;
 }
 .about .text a{
-    background-color: #00BF85;
+    background-color: var(--color1);
     font-weight: 600;
     padding: 0.5rem 1.4rem;
     border-radius: 30px;
     text-decoration: none;
-    color: #111;
+    color:var(--color3);
 }
 .about .text a:hover{
-    background-color: #fff;
+    background-color:var(--color2);
 }
 .discovery .text{
     display: flex;
@@ -123,13 +128,13 @@ html{
     margin: auto;
 }
 .discovery .text h6{
-    color: #00BF7F;
+    color: var(--color1);
     font-weight: 800;
     letter-spacing: 2px;
     font-size: 1rem;
 }
 .discovery .text h2{
-    color: #111;
+    color: var(--color2);
     font-weight: 700;
     font-size: 2.7rem;
 }
@@ -139,22 +144,22 @@ html{
     letter-spacing: .5px;
 }
 .discovery .text a{
-    background-color: #111;
+    background-color: var(--color3);
     font-weight: 500;
     padding: 0.5rem 1.4rem;
     border-radius: 30px;
     text-decoration: none;
-    color: #fff;
+    color: var(--color2);
 }
 .discovery a:hover{
-    background-color: #00BF7F;
-    color: #000;
+    background-color: var(--color1);
+    color: var(--color3);
 }
 .service{
-    background-color: #111;
+    background-color:var(--color3);
 }
 .service .one{
-    background-color: #fff;
+    background-color: var(--color2);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -172,37 +177,37 @@ html{
     margin: auto;
 }
 .sign .text h6{
-    color: #00BF7F;
+    color: var(--color1);
     font-weight: 800;
     letter-spacing: 2px;
     font-size: 1rem;
 }
 .sign .text h2{
-    color: #111;
+    color: var(--color3);
     font-weight: 700;
     font-size: 2.7rem;
 }
 .sign .text p{
-    color: #111;
+    color: var(--color3);
     font-weight: 400;
     font-size: 1.1rem;
     letter-spacing: .5px;
 }
 .sign .text a{
-    background-color: #111;
+    background-color: var(--color3);
     font-weight: 500;
     padding: 0.5rem 1.4rem;
     border-radius: 30px;
     text-decoration: none;
-    color: #fff;
+    color: var(--color2);
 }
 .sign .text a:hover{
-    background-color: #00BF7F;
-    color: #000;
+    background-color: var(--color1);
+    color: var(--color3);
 }
 .footer{
-    background-color: #000;
-    color: #fff;
+    background-color:var(--color3);
+    color: var(--color2);
 }
 .footer .btn{
     font-size: 30px;
